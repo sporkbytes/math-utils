@@ -1,0 +1,32 @@
+{
+  "name": "@sporkbytes/math-utils",
+  "version": "1.0.0",
+  "description": "Utility functions used to perform basic math.",
+  "main": "index.js",
+  "scripts": {
+    "docs": "jsdoc index.js -d ./docs",
+    "test": "intern"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sporkbytes/math-utils.git"
+  },
+  "keywords": [
+    "math",
+    "percent",
+    "percentage",
+    "decimals",
+    "rounding",
+    "precision",
+    "currency"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sporkbytes/math-utils/issues"
+  },
+  "homepage": "https://github.com/sporkbytes/math-utils#readme",
+  "devDependencies": {
+    "intern": "^4.3.1",
+    "jsdoc": "^3.5.5"
+  }
+}
