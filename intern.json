@@ -2,6 +2,6 @@
 	"suites": "index.spec.js",
 	"environments": "node",
 	"coverage": [
-		"index.spec.js"
+		"index.js"
 	]
 }
