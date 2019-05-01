@@ -1,4 +1,5 @@
 import babel from 'rollup-plugin-babel';
+import cleanup from 'rollup-plugin-cleanup';
 import pkg from './package.json';
 
 export default [
@@ -13,6 +14,7 @@ export default [
 			babel({
 				exclude: ['node_modules/**'],
 			}),
+			cleanup(),
 		],
 	},
 
@@ -26,6 +28,7 @@ export default [
 			babel({
 				exclude: ['node_modules/**'],
 			}),
+			cleanup(),
 		],
 	},
 ];
