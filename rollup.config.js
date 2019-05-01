@@ -6,7 +6,7 @@ export default [
 		input: 'src/index.js',
 		output: {
 			name: 'mathUtils',
-			file: pkg.browser,
+			file: pkg.umdModule,
 			format: 'umd',
 		},
 		plugins: [
