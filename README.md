@@ -4,7 +4,7 @@ Utility functions used to perform basic math.
 
 ## Development
 
-1. Install dependencies with `npm`.
+1. Install dependencies with `npm i`.
 2. Run `npm run dev` active development.
 
 ## Testing
