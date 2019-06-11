@@ -11,6 +11,7 @@
   "scripts": {
     "build": "rm -rf ./dist && rollup -c",
     "docs": "rm -rf ./docs && jsdoc src/index.js -d ./docs",
+    "prepublish": "npm run build",
     "start": "rollup -c -w",
     "test": "NODE_ENV=test jest"
   },
