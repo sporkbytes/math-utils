@@ -1,6 +1,6 @@
 {
   "name": "@sporkbytes/math-utils",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Utility functions used to perform basic math.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -11,7 +11,7 @@
   "scripts": {
     "build": "rm -rf ./dist && rollup -c",
     "docs": "rm -rf ./docs && jsdoc src/index.js -d ./docs",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "start": "rollup -c -w",
     "test": "NODE_ENV=test jest"
   },
@@ -49,5 +49,9 @@
       "src/index.js",
       "!**/node_modules/**"
     ]
+  },
+  "engines": {
+    "node": "12.2.0",
+    "npm": "6.9.0"
   }
 }
