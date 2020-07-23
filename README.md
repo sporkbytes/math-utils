@@ -9,7 +9,7 @@ Utility functions used to perform basic math.
 
 ## Testing
 
-Tests are written with Jest. Run `npm test` to run tests or `npm test -- --watch` while developing to run tests in watch mode.
+Tests are written with Jest. Run `npm t` to run tests or `npm t -- --watch` while developing to run tests in watch mode.
 
 ## License
 
