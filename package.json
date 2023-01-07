@@ -9,7 +9,7 @@
     "dist/*"
   ],
   "scripts": {
-    "build": "rm -rf ./dist && rollup -c",
+    "build": "npm test && rm -rf ./dist && rollup -c",
     "docs": "rm -rf ./docs && jsdoc index.js -d ./docs",
     "prepare": "npm run build",
     "start": "rollup -c -w",
